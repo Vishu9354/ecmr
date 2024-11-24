@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f5;
+}
+.home { text-align: center; padding: 20px; }
+.products { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+.product-card {
+  border: 1px solid #ccc; padding: 16px; background-color: #fff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px; 
+  width: 200px; text-align: left; transition: transform 0.2s;
+}
+.product-card:hover { transform: scale(1.05); }
+.wallet { text-align: center; padding: 20px; }
